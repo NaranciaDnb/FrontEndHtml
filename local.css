@@ -1,0 +1,102 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'have-heart-two';
+    src: url(./assets/have-heart-two.otf) format('opentype');
+}
+
+body {
+    background: orange;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.menu ul{
+    display: inline-flex;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #a00f2d;
+    font-family: 'roboto', serif;
+    margin-right: 10px;
+}
+
+main h1 {
+    color: #a00f2d;
+    font-family: 'roboto', serif;
+    font-size: 40px;
+}
+
+main p {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+main li {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    width:30%;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+
+main li h2 {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'roboto', sans-serif;
+    color: #a00f2d;
+}
+
+main li:hover {
+    border-color: #a00f2d;
+    border-width: 4px;
+}
+
+main li:hover h2 {
+    font-size: 25px;
+}
+
+main li:active {
+    border-color: #a00f2d;
+}
+
+footer {
+    margin-top: 150px;
+    background: black;
+    position: relative;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icones {
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
+
+#github {
+    width: 60px;
+}

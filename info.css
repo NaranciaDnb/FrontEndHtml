@@ -1,0 +1,138 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'have-heart-two';
+    src: url(./assets/have-heart-two.otf) format('opentype');
+}
+
+body {
+    background: orange;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.menu ul{
+    display: inline-flex;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #a00f2d;
+    font-family: 'roboto', serif;
+    margin-right: 10px;
+}
+
+.onion {
+    width: 100%;
+}
+
+.casa img{
+    margin: 40px;
+    width: 700px;
+    border-radius: 15px;
+    float:right
+}
+
+.casa h1 {
+    font-family: 'have-heart-two', sans-serif;
+    margin: 0 0 30px 20px;
+    color: #a00f2d;
+    font-size: 80px;
+}
+
+.casa p {
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+.salao img {
+    margin: 40px;
+    width: 700px;
+    border-radius: 15px;
+    float: left;
+}
+
+.salao h1 {
+    font-family: 'have-heart-two', sans-serif;
+    margin: 0 0 30px 20px;
+    color: #a00f2d;
+    font-size: 80px;
+}
+
+.salao p {
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 230px;
+}
+
+.waiter img {
+    margin: 40px;
+    width: 700px;
+    border-radius: 15px;
+    float:right;
+}
+
+.waiter h1 {
+    font-family: 'have-heart-two', sans-serif;
+    margin: 0 0 30px 20px;
+    color: #a00f2d;
+    font-size: 80px;
+}
+
+.waiter p {
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.waiter a{
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #a00f2d;
+}
+
+footer {
+    background: black;
+    position: relative;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icones {
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
+
+#github {
+    width: 60px;
+}

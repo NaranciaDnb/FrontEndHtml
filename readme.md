@@ -1,0 +1,1 @@
+Este site foi criado com a intenção de que eu pudesse aprimorar meu conhecimento com o front end de programação web, sendo utilizado apenas HTML e CSS

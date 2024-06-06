@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: 'have-heart-two';
+    src: url(./assets/have-heart-two.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'trade gothic';
+    src: url(./assets/Trade\ Gothic\ LT\ Std\ Condensed\ No.\ 18.otf) format('opentype');
+}
+
+body {
+    background: orange;
+}
+
+header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #a00f2d;
+    font-family: 'roboto', serif;
+    margin-right: 10px;
+}
+
+.banner {
+    height: 500px;
+    width:100%;
+}
+
+.enfeite {
+    background: url(./assets/outback_banner_enfeite.png);
+}
+
+.bordao {
+    text-align: center;
+}
+
+.bordao h2 {
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'trade gothic', serif;
+}
+
+.bordao img {
+    width: 300px;
+}
+
+.container {
+    display: flex;
+}
+
+.container .promo1 {
+    height: 50vh;
+    margin-left: 30px;
+    border-radius: 12px;
+}
+
+.container .promo2 {
+    height: 50vh;
+    margin-left: 30px;
+    border-radius: 12px;
+}
+
+.container .promo3 {
+    height: 50vh;
+    margin-left: 30px;
+    border-radius: 12px;
+}
+
+footer {
+    background: black;
+    position: relative;
+    margin-top: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icones {
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
+
+#github {
+    width: 60px;
+}
