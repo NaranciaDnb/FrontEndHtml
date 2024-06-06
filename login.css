@@ -19,8 +19,9 @@ header {
     margin-left: 100px;
 }
 
-.menu ul {
+.menu ul{
     display: inline-flex;
+    list-style-type: none;
 }
 
 .menu li a{

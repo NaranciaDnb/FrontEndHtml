@@ -25,6 +25,7 @@ header {
 
 .menu ul{
     display: inline-flex;
+    list-style-type: none;
 }
 
 .menu li a{
